@@ -78,7 +78,7 @@ function Intro({ id, sectionRef, disciplines, scrollIndicatorHidden, ...rest }) 
                                 id={titleId}
                             >
                                 <DecoderText
-                                    text="Alen Yohannan"
+                                    text="Padgett Ong"
                                     start={!prerender}
                                     delay={300}
                                 />

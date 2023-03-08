@@ -22,12 +22,12 @@ export const navLinks = [
 export const socialLinks = [
     {
         label: 'Twitter',
-        url: 'https://twitter.com/alenvelocity',
+        url: 'https://twitter.com/neuralzero',
         icon: 'twitter',
     },
     {
         label: 'Github',
-        url: 'https://github.com/alenvelocity',
+        url: 'https://github.com/visualarchillect',
         icon: 'github',
     },
 ]

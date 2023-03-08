@@ -9,7 +9,7 @@ const { smtpHost, smtpUser, smtpPass } = process.env;
 const mailTransport = nodemailer.createTransport({
   host: smtpHost,
   port: 465,
-  secure: true,
+  secure: false,
   auth: {
     user: smtpUser,
     pass: smtpPass,
@@ -40,13 +40,15 @@ module.exports = async (req, res) => {
 
     const mailOptions = {
       from: 'Portfolio <wellmail11@gmial.co>',
-      to: 'alenyohannan71@gmail.com@gmail.com',
+      to: 'padgett@cipherem.com', // Replace with your own email address or a test email address
       subject: `New message from ${email}`,
       text: `From: ${email}\n\n${message}`,
     };
+    
 
     await mailTransport.sendMail(mailOptions);
 
+    res.setHeader('Content-Type', 'application/json');
     return res.status(200).json({ message: 'Message sent successfully' });
   } catch (error) {
     console.error('Rejected', error);

@@ -1,3 +1,5 @@
+// Projects Section + Header
+
 import { useState, useEffect, useRef } from 'react'
 import { Helmet } from 'react-helmet'
 import Intro from 'pages/Home/Intro'
@@ -23,7 +25,8 @@ import wfy2ph from 'assets/WFY2ph.jpg'
 
 import './index.css'
 
-const disciplines = ['Student', 'Trailblazer']
+// animation of header
+const disciplines = ['Student', 'Innovator']
 
 const Home = () => {
     const { status } = useRouteTransition()
@@ -148,10 +151,10 @@ const Home = () => {
     return (
         <div className="home">
             <Helmet>
-                <title>Alen Yohannan | Devloper + </title>
+                <title>Padgett Ong | Developer + </title>
                 <meta
                     name="description"
-                    content="Portfolio of Alen Yohannan – a backend devloper working on node apps"
+                    content="Portfolio of Padgett – a programmer working on blockchain apps"
                 />
                 <link rel="prefetch" href={iphone11} as="fetch" crossorigin="" />
                 <link rel="prefetch" href={macbookPro} as="fetch" crossorigin="" />
@@ -167,11 +170,12 @@ const Home = () => {
                 sectionRef={projectOne}
                 visible={visibleSections.includes(projectOne.current)}
                 index={1}
-                title="Ethereal"
-                description="Simple yet fast general-purpose programming language."
+                title="Full Stack Web Application"
+                description="Leveraging modern, component-based architecture for efficient rendering and management of the application state"
                 buttonText="View Project"
-                buttonLink="https://ethereal-docs.vercel.app/"
+                buttonLink="https://life-water.netlify.app"
                 model={{
+                    
                     type: 'laptop',
                     alt: 'Ethereal',
                     textures: [
@@ -189,10 +193,10 @@ const Home = () => {
                 sectionRef={projectTwo}
                 visible={visibleSections.includes(projectTwo.current)}
                 index={2}
-                title="Weebify"
-                description="Flutter App to fetch Anime and Manga Details"
+                title="Blockchain"
+                description="My own cip.js library to interact and fetch data on-chain, and made numerous web3 applications with React framework"
                 buttonText="View Project"
-                buttonLink="https://github.com/AlenVelocity/Weebify"
+                buttonLink="https://www.npmjs.com/~archillect"
                 model={{
                     type: 'phone',
                     alt: 'Weebify',
@@ -215,10 +219,10 @@ const Home = () => {
                 sectionRef={projectThree}
                 visible={visibleSections.includes(projectThree.current)}
                 index={3}
-                title="Wa-Sticker-Formatter"
-                description="WhatsApp Sticker Creator and Formatter"
+                title="UI/UX Designer"
+                description="My latest UI/UX Design project"
                 buttonText="View Project"
-                buttonLink="https://github.com/AlenSaito1/wa-sticker-formatter"
+                buttonLink="https://www.figma.com/file/lDPEBQk9CBjC8mj60BN3BH/MOG-Technologies-Prototype?node-id=0%3A1&t=FVmcVysbtit6n0Ij-1"
                 model={{
                     type: 'laptop',
                     alt: 'Wa-Sticker-Formatter',
@@ -237,10 +241,10 @@ const Home = () => {
                 sectionRef={projectFour}
                 visible={visibleSections.includes(projectFour.current)}
                 index={4}
-                title="Void"
-                description="Uility bot for Whatsapp Group chats"
+                title="Python Games"
+                description="Python games utilising the Pygame library with customisable paradigm"
                 buttonText="View Project"
-                buttonLink="https://github.com/Synthesized-infinity/whatsapp-botto-void"
+                buttonLink="https://github.com/visualarchillect/Pygame-Space-Invaders"
                 model={{
                     type: 'phone',
                     alt: 'Void',

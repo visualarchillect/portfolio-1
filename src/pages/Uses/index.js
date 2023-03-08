@@ -24,7 +24,7 @@ const Uses = () => {
     return (
         <Fragment>
             <Helmet>
-                <title>Uses | Alen Yohannan</title>
+                <title>Uses | Padgett Ong</title>
                 <meta
                     name="description"
                     content="A list of hardware and software I use to do my thing"
@@ -38,8 +38,8 @@ const Uses = () => {
                     entered={!prerender}
                 />
                 <ProjectHeader
-                    title="Uses"
-                    description="A somewhat comprehensive list of tools, apps, and more that I use on a daily basis to design and code things. And yeah, that is a Johnny Mnemonic GIF in the background."
+                    title="Tech"
+                    description="A somewhat comprehensive list of tools, apps, and more that I use on a daily basis to design and code things. And yeah, that is the movie Ready Player One running in the background."
                 />
                 <ProjectSection first className="uses__section">
                     <ProjectSectionContent>
@@ -52,55 +52,53 @@ const Uses = () => {
                                         <Link href="https://code.visualstudio.com/">
                                             Visual Studio Code
                                         </Link>{' '}
-                                        as my text editor, with the Doki-Emilia-Dark theme
-                                        and Operator Mono as my typeface of choice.
+                                        as my text editor,  with the GitHub Dark Default theme and Fluent Icons. 
+                                        Recently, I started using the BlackBox extension to code faster after emmet shortcuts.
                                     </li>
                                     <li>
-                                        For Backend I use{' '}
-                                        <Link href="https://rustlang.org">Rust</Link>,
-                                        it's a great Language and it gets work done in
-                                        minutes
+                                        For Backend. I utilize{' '}
+                                        <Link href="https://soliditylang.org/">Solidity</Link>, <Link href="https://www.javascript.com/"
+                                        >Javascript</Link> and <Link href="https://go.dev/">Go</Link> mostly. 
+                                        it's efficient, accessible and it gets work done quickly.
                                     </li>
                                     <li>
                                         For Server Side I use{' '}
-                                        <Link href="https://nodejs.org">Node.JS</Link>,
-                                        it's a amazing framework which is really easy to
+                                        <Link href="https://nodejs.org">Node.Js</Link> and
+                                        sometimes, <Link href="https://www.python.org/">Python</Link>. 
+                                        it's an amazing framework which is really easy to
                                         use.
                                     </li>
                                     <li>
-                                        Firefox is my main browser for both development
+                                        Safari and Google Chrome is my main browser for development
                                         and general use.
                                     </li>
                                     <li>
                                         <Link href="https://reactjs.org/">React</Link> is
-                                        my front end Javascript library of choice. The
+                                        my front-end Javascript library of choice. The
                                         component-centric mental model is the first thing
-                                        that truly made sense to me as a Backend Developer
+                                        that truly made sense to me as a Developer.
                                     </li>
                                     <li>
-                                        For 3D effects and image shaders I use{' '}
-                                        <Link href="https://threejs.org/">three.js</Link>.
+                                        For 3D interactive applications or animations and models I use{' '}
+                                        <Link href="https://www.blender.org/">Blender</Link> or <Link href="https://www.adobe.com/">Adobe</Link>.
                                         It has a bit of a learning curve but you can do
                                         some really powerful stuff with it.
                                     </li>
                                     <li>
-                                        For CSS I've used a myriad pre-processors and
-                                        css-in-js solutions like styled-components, but
-                                        these days I'm using vanilla CSS with{' '}
-                                        <Link href="https://postcss.org/">PostCSS</Link>{' '}
-                                        to get upcoming CSS features today.
+                                        For UI/UX design, I am 
+                                        comfortable using design softwares like <Link href="hhttps://www.figma.com/">Figma</Link> and <Link href="https://adobexdplatform.com/">Adobe XD</Link>
+                                        , to create high-quality visual designs, wireframes and prototypes.
                                     </li>
                                     <li>
-                                        For Javascript animations I use{' '}
-                                        <Link href="https://popmotion.io/api/">
-                                            Popmotion Pure 8
-                                        </Link>
-                                        , it's a great way to add spring animations to
-                                        three.js. All other animations are CSS with{' '}
-                                        <Link href="https://reactcommunity.org/react-transition-group/">
-                                            React Transition Group
-                                        </Link>{' '}
-                                        for enter/exit transitions.
+                                        In school, I learn Python, Java, C++, C, SQL and
+                                        delved into theoretical topics such as algorithms, data structures, 
+                                        computer science and business information systems.
+                                    </li>
+                                    <li>
+                                        This portfolio website was created using <Link href="https://threejs.org/">Three.js</Link> and 
+                                        it's my first project using this technology. 
+                                        I enjoy continuously improving my skills and exploring new programming languages. 
+                                        Thank you for taking the time to read my profile!
                                     </li>
                                 </ul>
                             </ProjectSectionText>
