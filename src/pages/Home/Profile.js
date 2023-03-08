@@ -23,7 +23,7 @@ const ProfileText = ({ status, titleId }) => (
             level={3}
             id={titleId}
         >
-            <DecoderText text="Hi there" start={status !== 'exited'} delay={500} />
+            <DecoderText text="Hi future employers," start={status !== 'exited'} delay={500} />
         </Heading>
         <Text
             className={classNames(
@@ -32,10 +32,10 @@ const ProfileText = ({ status, titleId }) => (
             )}
             size="l"
         >
-            I'm Alen, Backend softwares, application rumtimes, and
-            Mobile applocations are some of my work. Because I'm at ease with programming,
-            I can quickly validate experiences. Visit my{' '}
-            <Link href="/uses">uses page</Link> if you're curious about the tools and
+            I'm Padgett, a 21-year-old developer and designer from Singapore with experience in Full-Stack, UI/UX, and Blockchain Applications. 
+            I'm passionate about being hands-on and constantly seeking new 
+            opportunities to expand my skills. Visit my{' '}
+            <Link href="/uses">tech page</Link> if you're curious about the tools and
             software I employ.
         </Text>
         <Text
@@ -45,8 +45,7 @@ const ProfileText = ({ status, titleId }) => (
             )}
             size="l"
         >
-            In my spare time I like to play video games. I’m always down for meeting new
-            people, so feel free to drop me a line.
+            In my spare time I like to play video games and build drones for fun.
         </Text>
     </Fragment>
 )
